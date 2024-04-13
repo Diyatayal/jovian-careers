@@ -1,0 +1,164 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+#navbar{
+    padding:10px;
+    margin:0;
+}
+#logo{
+    height:30px;
+    }
+h1{
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+    font-weight:lighter;
+    }
+h2{
+    text-align:center;
+    font-size: xx-large;
+}
+#Banner{
+    width: 100%;
+    object-fit: cover;
+}
+.Location{
+    color:gray;
+    margin-bottom:16px;
+}
+#about{
+   display:flex;
+   max-width:800px;
+   margin: 0 auto;
+   padding: 8px;
+
+}
+#description{
+    width: 50%;
+    font-size: large;
+    padding-right:8px;
+}
+#team image{
+    border-radius:5px;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(20,20,20);
+}
+#team{
+    width:50%;
+}
+#jobs{
+   max-width:800px; 
+   margin: 0 auto;
+   padding: 0 8px;
+}
+.job-type{
+    margin-bottom:4px;
+    margin-top:0;
+}
+.apply{
+    float:right;
+}
+#job-opportunities{
+   margin-bottom:40px; 
+}
+a{
+    text-decoration:none;
+}
+#footer{
+   background-color:ghostwhite;
+   padding: 8px;
+   text-align:center;
+}
+   
+#footer-links{
+    list-style:none;
+   
+}
+#footer-links li{
+    display:inline;
+    padding-left:30px;
+    padding-right:30px;
+    margin:0 16px;
+}
+.copyright{
+    color:gray;
+}
+#jobs-table{
+    width:100%;
+    border:1px solid gray;
+    border-collapse:collapse;
+
+}
+a.hover{
+    color:pink;
+}
+#Jobs-table th{
+    border:1px solid gray;
+    padding: 8px;
+    background-color:aliceblue;
+}
+#Jobs-table td{
+    border:1px solid gray;
+    padding:8px;
+}
+.jobs-header-row th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color:aliceblue;
+    text-align: center;
+    
+}
+.jobs-data-row td{
+    border-right: 1px solid gray;
+    padding: 8px;
+}
+#jobs-table-row td{
+    border-right: 1px solid gray;
+    padding: 8px;
+}
+#jobs-table tr:nth-child(odd){
+    background-color: ghostwhite;
+}
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding:0 30px;
+}
+#application form label{
+    font-weight:700px;
+}
+#application form input,select,textarea{
+    padding: 8px;
+    font-size=1.25rem;
+    margin-top:12px;
+    Margin-bottom:12px;
+    border-radius:5px;
+    border: 1px solid gray;
+}
+.form-group input[type="submit"]{
+    background-color:cornflowerblue;
+    color:white;
+    font-weight: 500;
+    cursor: pointer; 
+}
+
+
+.form-group textarea{
+    width: 80%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form-group input[type="checkbox"]{
+    width:16px;
+    height:16px;
+}
+#Heading{
+    margin-top:50px;
+}
+#application-form label{
+    margin: 30px;
+}
+
